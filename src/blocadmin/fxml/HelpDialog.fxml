@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="114.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="appVersionTxt" prefHeight="114.0" prefWidth="266.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <JFXButton fx:id="helpCloseBtn" layoutX="216.0" layoutY="14.0" prefHeight="33.0" prefWidth="38.0" />
+            <Label fx:id="versionLbl" layoutX="31.0" layoutY="56.0" text="App version:" textFill="WHITE" />
+            <Label fx:id="versionTxt" layoutX="163.0" layoutY="56.0" text="Label" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

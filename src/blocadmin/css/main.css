@@ -1,0 +1,40 @@
+/* 
+   Author: Geanina
+   App color scheme
+   #21D0B2
+   #34F5C5
+   #c8d6e5
+*/
+.tab{
+    -fx-pref-width: 145;
+    -fx-alignment: CENTER;
+}
+.tab-header-background{
+    -fx-background-color:  #2F455C;
+}
+
+.jfx-tab-pane .tab-selected-line{
+    -fx-border-color:  #1DCDFE;
+}
+
+.combo-box .cell{
+    -fx-text-fill: white;
+    -fx-background-color: #2F455C;
+
+}
+
+.jfx-date-picker .text-field{
+    -jfx-unfocus-color: #2F455C;
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+}
+
+.tab-pane{
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: white;
+}

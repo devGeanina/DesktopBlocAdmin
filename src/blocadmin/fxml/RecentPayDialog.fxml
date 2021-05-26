@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="114.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="384.0" prefWidth="667.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <JFXButton fx:id="closeBtn" layoutX="602.0" layoutY="14.0" prefHeight="33.0" prefWidth="38.0" />
+            <TableView fx:id="recentPays" layoutX="-1.0" layoutY="61.0" prefHeight="322.0" prefWidth="674.0" stylesheets="@../css/main.css">
+              <columns>
+                <TableColumn fx:id="type" prefWidth="105.60000765323639" text="Type" />
+                <TableColumn fx:id="household" prefWidth="169.59996795654297" text="Household" />
+                  <TableColumn fx:id="owner" prefWidth="199.20001220703125" text="Owner" />
+                  <TableColumn fx:id="sum" prefWidth="80.80001831054688" text="Sum" />
+                  <TableColumn fx:id="payed" minWidth="0.0" prefWidth="108.79997558593755" text="Payed in full" />
+              </columns>
+            </TableView>
+            <Label layoutX="14.0" layoutY="22.0" text="Last received payments:" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
