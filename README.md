@@ -10,11 +10,11 @@ The application contains information about the users (owner, employees, associat
 The application allows the user to change the database settings to contain a specific database URL, username and password.
 
 ## Built With
-Postgresql - database to store the application information, configurable inside the application as per client's needs.
-Log4j - logging application information.
-JUnit & Mockito - test coverage.
-JFoenix - Google Material Design using Java components library for UI.
-Scene Builder & Pichon - used to draw the UI interface.
+* Postgresql - database to store the application information, configurable inside the application as per client's needs.
+* Log4j - logging application information.
+* JUnit & Mockito - test coverage.
+* JFoenix - Google Material Design using Java components library for UI.
+* Scene Builder & Pichon - used to draw the UI interface.
 
 ## Author
 * **Geanina Chiricuta**
